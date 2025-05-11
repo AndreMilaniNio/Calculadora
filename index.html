@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16" href="./Images/CalcImage.png">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Calculadora JS</title>
+</head>
+<body>
+    <main>
+        <!-- Box principal -->
+        <div class="MainBox">
+            <!-- Título -->
+            <h1>Calculadora JS</h1>
+            <!-- Box dos Inputs -->
+            <div class="InputBox">
+                <!-- Inputs -->
+                <input type="number" id="num1" autocomplete="off" placeholder="Número 1">
+                <input type="number" id="num2" autocomplete="off" placeholder="Número 2">
+                <!-- Opções -->
+                <select id="OpChoice">
+                    <option value="mult">× Multiplicação</option>
+                    <option value="divi">÷ Divisão</option>
+                    <option value="soma">+ Adição</option>
+                    <option value="subt">− Subtração</option>
+                    <option value="poten">^ Potenciação</option>
+                    <option value="raiz">√ Raiz</option>
+                </select>
+            </div>
+            <!-- Resultado -->
+            <p id="result">Insira números!</p>
+        </div>
+    </main>
+    <!-- Script -->
+    <script src="./JavaScript/script.js"></script>
+</body>
+</html>
